@@ -295,6 +295,66 @@ ul {
   justify-content: space-between;
 }
 
+.destinations-cards__wrap {
+  width: 398px;
+  padding: 32px;
+  border-radius: 0px 0px 32px 32px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05),
+    0px 32px 71px 0px rgba(0, 0, 0, 0.05),
+    0px 128px 128px 0px rgba(0, 0, 0, 0.04),
+    0px 288px 173px 0px rgba(0, 0, 0, 0.03),
+    0px 513px 205px 0px rgba(0, 0, 0, 0.01),
+    0px 801px 224px 0px rgba(0, 0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+.destinations-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.destinations-cards__price {
+  color: rgb(248, 94, 159);
+  font-family: "Circular Std";
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 8px;
+}
+
+.destinations-cards__title {
+  color: rgb(25, 24, 37);
+  font-family: "Circular Std";
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.destinations-cards__location {
+  color: rgba(25, 24, 37, 0.75);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 32px;
+}
+
+.destinations-cards__rating-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.destinations-cards__num-rating {
+  color: rgb(255, 87, 34);
+  font-family: Circular Std;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
 @media (min-width: 1024px) {
   .header {
     width: 100%;
